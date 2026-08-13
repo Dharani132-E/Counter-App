@@ -1,0 +1,47 @@
+body{
+   text-align:center;
+   background-image: url("image.png");
+   background-size:cover;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   height:100vp;
+  
+  background-repeat:no-repeat;
+}
+button{
+    border-radius:30px;
+   margin: auto;
+   padding:10px;
+   font-size:1rem;
+    
+    background-color: brown;
+    color:beige;
+    border:2px solid black;
+    transition: 0.2s;
+    
+}
+h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 4rem;
+}
+.container{
+    background-color: blanchedalmond;
+    width:300px;
+    height:300px;
+    padding:5rem;
+    
+    border :2px solid black;
+    border-radius:15px;
+    margin:100px;
+    text-align:center;
+}
+
+#display{
+    font-size: 2rem;
+}
+button:active{
+    background-color: beige;
+    color:brown;
+    transform: scale(1,1);
+}
