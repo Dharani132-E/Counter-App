@@ -2,7 +2,7 @@ let count=0;
 let incrementValue=document.getElementById("incrementBtn")
 let decrementValue=document.getElementById("decrementBtn")
 let resetValue=document.getElementById("resetBtn")
-let displayValue=document.getElementById("display")
+let displaycount=document.getElementById("display")
 
 incrementValue.addEventListener("click",increment);
 function increment(){
